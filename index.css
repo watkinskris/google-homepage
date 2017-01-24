@@ -1,0 +1,19 @@
+#header {
+    position: relative;
+    float: right;
+    font-size: 0.8em;
+   
+}
+#gmail{
+    position: relative;
+    float: left;
+    margin-right: 30px;
+    
+}
+
+#images{
+    position: relative;
+    float: right;
+    margin-right: 200px;
+}
+
