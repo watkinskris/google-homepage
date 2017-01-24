@@ -4,6 +4,7 @@
     font-size: 0.8em;
    
 }
+
 #gmail{
     position: relative;
     float: left;
@@ -16,4 +17,41 @@
     float: right;
     margin-right: 200px;
 }
+
+.body{
+    position: relative;
+    text-align: center;
+    clear: both;
+    padding-top: 10px
+}
+
+#google{
+    font-size: 3em;
+    margin-top: 200px;
+    color: blue;
+}
+
+#searchText{
+    width: 300px;
+    height: 30px;
+}
+
+#searchButton{
+    position: relative;
+    float: left;
+    margin-left: 610px
+}
+
+#luckyButton{
+    position: relative;
+    float: right;
+    margin-right: 600px;
+}
+
+#offeredLanguages{
+    clear: both;
+    font-size: 0.8em;
+}
+
+
 
