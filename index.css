@@ -26,9 +26,36 @@
 }
 
 #google{
-    font-size: 3em;
+    font-size: 5.5em;
     margin-top: 200px;
-    color: blue;
+    font-family: Futura , sans-serif;
+    font-weight: bold;
+    letter-spacing: -16px;
+
+}
+
+#google span:nth-child(1) {
+    color:#3366FF;
+}
+
+#google span:nth-child(2){
+    color: #ff3300;
+}
+
+#google span:nth-child(3){
+    color:#ffcc33;
+}
+
+#google span:nth-child(4){
+    color:#3366ff;
+}
+
+#google span:nth-child(5){
+    color:#339900;
+}
+
+#google span:nth-child(6){
+    color:#ff3300;
 }
 
 #searchText{
