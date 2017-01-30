@@ -35,7 +35,8 @@
 }
 
 #google span:nth-child(1) {
-    color:#3366FF;
+   color:#3366ff;
+    
 }
 
 #google span:nth-child(2){
@@ -59,8 +60,10 @@
 }
 
 #searchText{
-    width: 300px;
-    height: 30px;
+    width: 600px;
+    height: 35px;
+    margin: 30px;
+    border: 1px solid #3366FF;
 }
 
 #searchButton{
