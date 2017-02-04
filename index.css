@@ -60,16 +60,25 @@
 }
 
 #searchText{
-    width: 600px;
-    height: 35px;
+    width: 570px;
+    height: 43px;
     margin: 30px;
-    border: 1px solid #3366FF;
+    border: 1px solid gainsboro;
+    font-size: 1em;
+    box-shadow:0px 5px 10px #cccccc;
+    border-radius: 2px;
 }
 
+#buttons{
+    display: inline;
+    height: 40px;
+    width: 60px;
+    background: #f7fbfa;
+}
 #searchButton{
     position: relative;
     float: left;
-    margin-left: 610px
+    margin-left: 610px;
 }
 
 #luckyButton{
