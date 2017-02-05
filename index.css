@@ -2,7 +2,7 @@
     position: relative;
     float: right;
     font-size: 0.8em;
-    margin-bottom: 115px;
+    margin-bottom: 97px;
 
    
 }
@@ -168,6 +168,7 @@
     font-weight: normal;
 }
 
+
 #leftSideLinks{
     float: left;
     margin-left: 30px;
@@ -177,6 +178,16 @@
 #rightSideLinks{
     float: right;
     margin-right: 185px;
+}
+
+a:link{
+    color: darkslategray;
+    text-decoration: none;
+}
+
+a:visited{
+    color: darkslategray;
+    text-decoration: none;
 }
 
 
