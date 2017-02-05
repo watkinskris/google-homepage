@@ -71,20 +71,36 @@
 
 #buttons{
     display: inline;
-    height: 40px;
-    width: 60px;
-    background: #f7fbfa;
+    margin: auto;
 }
+
+ #searchButton, #luckyButton{
+    height: 2.5em;
+    width:11em;
+    border-radius: 0;
+    font-weight: bold;
+    color: darkslategray;
+    font-size: .7em;
+    background-color: #e6e6e6;
+    box-shadow: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-top-style: none;
+    margin-bottom: 20px;
+} 
 #searchButton{
+    display: inline;
     position: relative;
     float: left;
-    margin-left: 610px;
+    margin-left: 590px;
 }
 
 #luckyButton{
+    display: inline;
     position: relative;
     float: right;
-    margin-right: 600px;
+    margin-right: 580px;
 }
 
 #offeredLanguages{
