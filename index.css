@@ -2,9 +2,15 @@
     position: relative;
     float: right;
     font-size: 0.8em;
-    margin-bottom: 130px;
+    margin-bottom: 115px;
 
    
+}
+
+#gmail, #images {
+    margin-top: 10px;
+    font-family: sans-serif;
+    color: darkslategray;
 }
 
 #gmail{
@@ -20,11 +26,17 @@
     margin-right: 200px;
 }
 
+#optionsMenu{
+    float: right;
+    margin-right: 150px;
+    margin-top: -18px;
+}
+
 .body{
-    /*position: relative;*/
+    
     text-align: center;
     clear: both;
-    /*padding-top: 1px;*/
+    
     
 }
 
