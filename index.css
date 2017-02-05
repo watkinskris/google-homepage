@@ -106,6 +106,34 @@
     margin-right: 580px;
 }
 
+#footer{
+    margin-top: 325px;
+    background-color: #e6e6e6;
+    width: 100em;
+    height: 40px;
+    margin-left: -10px;
+    display: inline-block;
+}
+
+#leftSideLinks, #rightSideLinks{
+    font-size: .75em;
+    margin-top: 12px;
+    word-spacing: 25px;
+    color: darkslategray;
+    font-family: sans-serif;
+    font-weight: normal;
+}
+
+#leftSideLinks{
+    float: left;
+    margin-left: 30px;
+
+}
+
+#rightSideLinks{
+    float: right;
+    margin-right: 185px;
+}
 
 
 
