@@ -16,20 +16,41 @@
 #gmail{
     position: relative;
     float: left;
-    margin-right: 30px;
+    margin-right: 20px;
     
 }
 
 #images{
     position: relative;
-    float: right;
-    margin-right: 200px;
+    float: left;
+    margin-right: 160px;
+    
 }
 
 #optionsMenu{
+    position: relative;
     float: right;
-    margin-right: 150px;
+    margin-right: 20px;
     margin-top: -18px;
+    padding-right: 0px;
+}
+
+#notifications{
+    position: relative;
+    height: 20px;
+    width: 20px;
+    background-color: black;
+    float: right;
+    margin-right: 80px;
+    margin-top: -18px;
+    border-radius: 50px;
+}
+
+#notifications img {
+    height: 20px;
+    width: 20px;
+    opacity: .5;
+    border-radius: 50px;
 }
 
 .body{
