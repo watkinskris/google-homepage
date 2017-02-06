@@ -1,12 +1,12 @@
 #header {
+    top: 0px;
+    bottom: 10%;
     position: relative;
-    float: right;
+    display: inline;
     font-size: 0.8em;
-    margin-bottom: 73px;
+    float: right;
 
-   
 }
-
 #gmail, #images {
     margin-top: 20px;
     font-family: sans-serif;
@@ -28,44 +28,41 @@
 }
 
 #optionsMenu{
-    position: relative;
     float: right;
-    margin-right: 20px;
+    margin-right: 120px;
     margin-top: -18px;
     padding-right: 0px;
 }
 
-#notifications{
-    position: relative;
-    height: 20px;
-    width: 20px;
-    background-color: black;
-    float: right;
-    margin-right: 80px;
-    margin-top: -18px;
-    border-radius: 50px;
-}
 
-#notifications img {
-    height: 20px;
-    width: 20px;
-    opacity: .5;
-    border-radius: 50px;
-}
-
-#userProfile img{
+#userProfile {
     position: relative;
-    height: 40px;
-    width: 40px;
-    border-radius: 50px;
+    height: 30px;
+    width: 70px;
+    background-color:#3366ff;
+    border-radius: 3px;
     float: right;
     margin-right: -120px;
-    margin-top: -29px;
+    margin-top: -21px;
     
 }
 
+#userProfile span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-family: sans-serif;
+    color: white;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+   
+
 .body{
-    
+    position: relative;
+    top: 120px;
     text-align: center;
     clear: both;
     
@@ -128,6 +125,7 @@
     font-weight: bold;
     color: darkslategray;
     font-size: .7em;
+    font-family: sans-serif;
     background-color: #e6e6e6;
     box-shadow: none;
     border-left-style: none;
@@ -151,7 +149,8 @@
 }
 
 #footer{
-    margin-top: 325px;
+    position: relative;
+    top: 400px;
     background-color: #e6e6e6;
     width: 100em;
     height: 40px;
